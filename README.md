@@ -30,11 +30,11 @@
 - Z - Score Normalisation 
 		
 ## Methodology
-- Aggregate transactions at the monthly level	
-- Compute 12-period rolling average	
-- Compute 12-period rolling standard deviation	
-- Calculate z-scores to identify unusual periods relative to recent history	
-- The analysis is parameterized by ledger code and reporting period.
+1. Aggregate transactions at the monthly level	
+2. Compute 12-period rolling average	
+3. Compute 12-period rolling standard deviation	
+4. Calculate z-scores to identify unusual periods relative to recent history	
+5. The analysis is parameterized by ledger code and reporting period.
 	
 ## Output
 - SQL query result set 	
