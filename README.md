@@ -16,7 +16,8 @@
    All data used in this case is simulated and anonymized.
 
 ## Data Description
-	• PostingPeriod (YYYY/MM)  Financial period in which the transaction is posted (not necessarily calendar month)
+	• PostingPeriod (YYYY/MM)  Financial period in which the transaction is posted (not necessarily 
+	   calendar month)
 	• Transactionp Period: The actual transaction posting date
 	• Ledger Code : Identifier for expense, revenue, or cost category ( the GL may vary in different companies )
 	• Amount: transaction posted to the ledger ( debit or credit )
@@ -37,7 +38,7 @@
 	
 ## Output
 	• SQL query result set 
-	  Example parameters used in this case:
+	    Example parameters used in this case:
 		LedgerCode = 10000
 		Reporting Period = 2025
 
@@ -70,7 +71,8 @@
       analytical goals.
 	• The CURRENT ROW in the window function refers to the current record in sequence, not necessarily 
       the latest calendar period.
-	• A calendar table could be introduced to enforce continuous period coverage and support calendar-based analysis.
+	• A calendar table could be introduced to enforce continuous period coverage and support 
+	   calendar-based analysis.
 	• This type of rolling variance analysis is particularly useful in larger organizations, where senior 
       stakeholders cannot monitor all cost and revenue movements in detail and rely on targeted indicators 
       to flag areas for further investigation.
