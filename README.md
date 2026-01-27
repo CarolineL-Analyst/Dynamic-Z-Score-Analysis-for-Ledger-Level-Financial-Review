@@ -6,6 +6,10 @@
 - Analyzes monthly trends for a selected ledger code
 - Focuses on volatility and anomaly detection using rolling statistics
 - Designed to support finance review discussions and highlight areas for follow-up rather than automate conclusions
+
+## Audience
+- This repository includes an executive-style summary for non-technical stakeholders.
+- Technical details and SQL implementations are documented in subsequent sections.
 	
 ## Business Question
 - Is this cost / revenue stable over time?	
