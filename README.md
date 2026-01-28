@@ -64,3 +64,6 @@
 - The CURRENT ROW in the window function refers to the current record in sequence, not necessarily the latest calendar period.
 - A calendar table could be introduced to enforce continuous period coverage and support calendar-based analysis.
 - This type of rolling variance analysis is particularly useful in larger organizations, where senior stakeholders cannot monitor all cost and revenue movements in detail and rely on targeted indicators to flag areas for further investigation.
+
+## Applicability Beyond Finance
+Although this example uses financial ledger data, the same rolling z-score framework can be applied to operational metrics such as procurement lead times, supplier performance, inventory movements, and service-level indicators.
