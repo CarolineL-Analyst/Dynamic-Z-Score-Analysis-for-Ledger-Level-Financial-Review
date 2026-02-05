@@ -60,9 +60,10 @@
 - The @StartPeriod controls output display, assuming sufficient historical data exists to support rolling calculations.	
 	
 ## Scope & Extensions& Intended Use
-- The current example uses a 12-period lookback; this can be adjusted (e.g., 6 periods) depending on analytical goals.
+- The current example uses a 12-period lookback; this can be adjusted (e.g., 6 periods) depending on analytical goals and data availibility.
 - The CURRENT ROW in the window function refers to the current record in sequence, not necessarily the latest calendar period.
 - A calendar table could be introduced to enforce continuous period coverage and support calendar-based analysis.
+- While rolling CV can be used to assess structural volatility of ledger accounts, this case intentionally focuses on z-score–based anomaly detection to keep the analysis scoped to exception identification.
 - This type of rolling variance analysis is particularly useful in larger organizations, where senior stakeholders cannot monitor all cost and revenue movements in detail and rely on targeted indicators to flag areas for further investigation.
 
 ## Applicability Beyond Finance
