@@ -1,4 +1,3 @@
-
 /*
 Rolling metrics become fully representative after 12 periods; earlier results are included
 for continuity but interpreted with caution.
@@ -13,8 +12,12 @@ statistical standardization can be applied consistently across different domains
 
 /* This query is designed as a reusable monitoring template.
 By changing the ledger code and reporting window, finance teams can
-review volatility patterns across different cost or revenue categories.
-*/
+review volatility patterns across different cost or revenue categories. */
+
+/*
+Portfolio sample SQL — table and field names are generalized for readability.
+The analytical approach reflects real-world financial monitoring workflows. */
+
 
 
 
