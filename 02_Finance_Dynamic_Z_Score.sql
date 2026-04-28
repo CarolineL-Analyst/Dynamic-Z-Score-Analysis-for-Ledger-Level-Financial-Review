@@ -22,13 +22,9 @@ demonstrating how statistical standardization can be applied consistently
 across different domains.
 */
 
-
-
-
 DECLARE @LedgerCode  VARCHAR(10);
 DECLARE @StartPeriod INT;
 DECLARE @EndPeriod   INT;
-
 
 WITH base1 AS (
     SELECT
