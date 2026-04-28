@@ -1,23 +1,26 @@
 /*
-Rolling metrics become fully representative after 12 periods; earlier results are included
-for continuity but interpreted with caution.
-
-This analysis applies 12-period rolling averages and standard deviations to financial
-transaction data to establish a dynamic baseline per ledger code. Z-scores normalize
-period-over-period deviations relative to recent operating patterns rather than long-term
-historical averages.
-
-The approach mirrors z-score normalization used in my NBA analysis, demonstrating how
-statistical standardization can be applied consistently across different domains.  */
-
-/* This query is designed as a reusable monitoring template.
-By changing the ledger code and reporting window, finance teams can
-review volatility patterns across different cost or revenue categories. */
-
-/*
 Portfolio sample SQL — table and field names are generalized for readability.
-The analytical approach reflects real-world financial monitoring workflows. */
+The analytical approach reflects real-world financial monitoring workflows.
 
+Method:
+This analysis applies 12-period rolling averages and standard deviations to
+financial transaction data to establish a dynamic baseline per ledger code.
+Z-scores normalize period-over-period deviations relative to recent operating
+patterns rather than long-term historical averages.
+
+Note: Rolling metrics become fully representative after 12 periods; earlier
+results are included for continuity but interpreted with caution.
+
+Usage:
+Designed as a reusable monitoring template. By changing the ledger code and
+reporting window, the same pattern can be applied to review volatility
+patterns across different cost or revenue categories.
+
+Cross-domain note:
+The approach mirrors z-score normalization used in my NBA analysis,
+demonstrating how statistical standardization can be applied consistently
+across different domains.
+*/
 
 
 
