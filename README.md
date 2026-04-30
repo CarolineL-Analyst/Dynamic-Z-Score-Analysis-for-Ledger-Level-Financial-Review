@@ -21,7 +21,7 @@
 
 ## Data Description
 - PostingPeriod (YYYY/MM)  Financial period in which the transaction is posted (not necessarily calendar month)	   
-- Transactionp Period: The actual transaction posting date
+- Transaction Period: The actual transaction posting date
 - Ledger Code : Identifier for expense, revenue, or cost category ( the GL may vary in different companies )	
 - Amount: transaction posted to the ledger ( debit or credit )	
 - Document Ref: Description of the transaction (e.g., purchase invoice number)
