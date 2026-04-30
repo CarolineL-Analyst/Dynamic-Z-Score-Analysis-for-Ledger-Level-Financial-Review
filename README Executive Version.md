@@ -3,6 +3,7 @@
 ## Objective
 
 This analysis evaluates the stability and volatility of a selected ledger code by comparing monthly activity against its recent historical baseline, supporting finance review and anomaly investigation.
+
 This type of rolling variance analysis is particularly useful in larger organizations, where senior stakeholders cannot monitor all cost and revenue movements in detail and instead rely on targeted indicators to flag areas for further investigation.
 
 
